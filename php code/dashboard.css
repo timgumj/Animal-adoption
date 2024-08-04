@@ -1,0 +1,109 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+u {
+  text-decoration: none;
+  border-bottom: 0.5px solid white;
+}
+
+.nav-link {
+  font-size: 24px;
+}
+
+.navbar,
+.navbar-nav {
+  font-size: 24px;
+}
+
+.navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .footerNav ul {
+    flex-direction: column;
+  }
+
+  .footerNav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+  }
+}
+
+.card {
+  box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+}
+
+.carousel-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.carousel-caption {
+  flex: 1;
+  padding: 20px;
+  background-color: rgba(33, 37, 41, 0.85);
+}
+
+.carousel-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.carousel-author,
+.carousel-description {
+  font-size: 18px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.publisher-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.publisher-link:hover {
+  text-decoration: underline;
+}
